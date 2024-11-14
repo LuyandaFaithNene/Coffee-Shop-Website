@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heavenly Brew</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #d2ab80;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    header img {
+      height: 80px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: whitesmoke;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .welcome-message {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+
+    .buttons {
+      margin: 20px 0;
+    }
+
+    .buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #d2ab80;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .social-media a {
+      margin: 0 10px;
+      color: black;
+      text-decoration: wavy;
+    }
+    .slideshow-container {
+      max-width: 500px;
+      position: relative;
+      margin: auto;
+    }
+
+    .mySlides {
+      display: none;
+    }
+
+    .owner-bio {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    h1 {
+      margin: 0;
+    }
+    .container-menu {
+      margin-bottom: 30px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      overflow: hidden;
+      background-color: whitesmoke;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .product {
+      margin-bottom: 30px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      overflow: hidden;
+      background-color: whitesmoke;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .menu-item {
+      margin-bottom: 20px;
+      padding: 15px;
+    }
+    .menu-item img {
+      max-width: 50%;
+      border-radius: 20px;
+    }
+    .menu-item h2 {
+      margin-top: 10px;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+    }
+    .menu-item p {
+      color: #555;
+    }
+
+    .brew-message {
+      font-size: 1em;
+      margin-bottom: 20px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+    .menu-item .price {
+      font-weight: bold;
+      color: #333;
+    }
+
+    .name-font {
+      font-family: c;
+      font-size: 3em;
+    }
+
+    .h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .product img {
+      width: 50%;
+      height: auto;
+    }
+    .product-info {
+      padding: 15px;
+    }
+    .product-info h2 {
+      margin-top: 0;
+      color: #333;
+    }
+    .product-info p {
+      margin: 10px 0;
+      color: #666;
+    }
+    .price-books {
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+    }
+    .purchase-btn {
+      display: block;
+      width: 50%;
+      padding: 9px;
+      background-color: burlywood;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+    }
+    .purchase-btn:hover {
+      background-color: blanchedalmond;
+    }
+
+    .button-menu {
+      padding: 8px 15px;
+      background-color: burlywood;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .basket-btn {
+      color: white;
+      background-color: burlywood;
+      width: 40%;
+      height: 2rem;
+      border: none;
+    }
+
+    .container-checkout {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+  </style>
+  <body>
+    <header>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/763/original/Bold_Lettering_Tumblr_Banner.png?1721642872"
+        alt="Heavenly Brew Logo"
+      />
+      <h1 class="name-font">Heavenly Brew</h1>
+    </header>
+    <div class="container">
+      <div class="buttons">
+        <a href="coffeeshop-menu.html">Menu</a>
+        <a href="coffeeshop-books.html">Bookstore</a>
+      </div>
+      <p class="welcome-message">
+        Welcome to Heavenly Brew! Start your day with a sip of faith and a dash
+        of caffeine. Enjoy your brew! Step inside and let the rich aroma of
+        freshly roasted beans envelop you as you embark on a journey of flavors
+        crafted with care by our dedicated team. At Heavenly Brew, we believe
+        that every sip should ignite your spirit and fuel your day. So come on
+        in, savor the taste of inspiration, and make yourself at home in our
+        caffeinated haven!
+      </p>
+
+      <div class="social-media">
+        <a href="https://www.tiktok.com/@luyandanene_?lang=en" target="_blank"
+          >TikTok</a
+        >
+        <a href="https://www.instagram.com/luyandanene_/" target="_blank"
+          >Instagram</a
+        >
+      </div>
+      <br />
+      <br />
+      <div class="slideshow-container">
+        <div class="mySlides">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/766/original/IMG_1273_jpg.jpg?1721643161"
+            style="width: 90%"
+          />
+        </div>
+
+        <div class="mySlides">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/767/original/IMG_1953_jpg.jpg?1721643210"
+            style="width: 90%"
+          />
+        </div>
+        <div class="mySlides">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/769/original/IMG_4360.jpg?1721643257"
+            style="width: 90%"
+          />
+        </div>
+
+        <div class="mySlides">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/770/original/IMG_2915_jpg.jpg?1721643278"
+            style="width: 90%"
+          />
+        </div>
+
+        <!-- Navigation buttons for the slideshow -->
+        <button onclick="plusSlides(-1)">❮ Prev</button>
+        <button onclick="plusSlides(1)">Next ❯</button>
+      </div>
+
+      <div class="owner-bio">
+        <h2>Meet Faith 🩵</h2>
+        <p>
+          Luyanda Faith Nene is the dynamic owner and visionary behind Heavenly
+          Brew. With a passion for both coffee and literature, Luyanda
+          seamlessly combines these two loves to create a unique and inviting
+          space for coffee enthusiasts and book lovers alike.
+        </p>
+        <p>
+          Luyanda's dedication to quality, creativity, and hospitality shines
+          through in every aspect of Heavenly Brew, making it a beloved
+          destination for those seeking not only exceptional coffee but also a
+          welcoming environment that celebrates the joys of both caffeine and
+          literature.
+        </p>
+      </div>
+
+      <div class="container-checkout">
+        <h2>Share Your Experience</h2>
+        <p>We'd love to hear about your visit! Please leave a comment below:</p>
+        <button onclick="submitComment()">Submit Comment</button>
+      </div>
+    </div>
+
+    <footer>
+      <hr />
+      <p>&copy; 2024 Heavenly Brew. All rights reserved.</p>
+    </footer>
+
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+      }
+
+      function submitComment() {
+        let comment = prompt("Please enter your comment:");
+        if (comment) {
+          alert("Thank you for your comment: " + comment);
+        } else {
+          alert("No comment entered.");
+        }
+      }
+    </script>
+  </body>
+</html>

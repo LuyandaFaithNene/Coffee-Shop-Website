@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heavenly Brew</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #D2AB80;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header img {
+    height: 80px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.welcome-message {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color:#D2AB80;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: black;
+    text-decoration: wavy;
+}
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.owner-bio {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+.container-menu {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.product {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.menu-item {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.menu-item img {
+    max-width: 50%;
+    border-radius: 20px;
+}
+.menu-item h2 {
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',  sans-serif;
+}
+.menu-item p {
+    color: #555;
+}
+
+.brew-message{
+    font-size: 1em;
+    margin-bottom: 20px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu-item .price {
+    font-weight: bold;
+    color: #333;
+}
+
+.name-font{
+    font-family: c;
+    font-size: 3em
+}
+.h1 {
+    text-align: center;
+    color: #333;
+}
+
+.product img {
+    width: 50%;
+    height: auto;
+}
+.product-info {
+    padding: 15px;
+}
+.product-info h2 {
+    margin-top: 0;
+    color: #333;
+}
+.product-info p {
+    margin: 10px 0;
+    color: #666;
+}
+.price-books {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.purchase-btn {
+    display: block;
+    width: 50%;
+    padding: 9px;
+    background-color: burlywood;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.purchase-btn:hover {
+    background-color: blanchedalmond;
+}
+
+.button-menu{
+    padding: 8px 15px;
+            background-color: burlywood;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+}
+
+.basket-btn {
+   color: white;
+   background-color: burlywood;
+   width: 40%;
+   height: 2rem;
+   border: none;
+}
+
+.container-checkout{
+    max-width: 800px;
+            margin: auto;
+            padding: 20px;
+}
+</style>
+<body>
+    <header>
+        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/763/original/Bold_Lettering_Tumblr_Banner.png?1721642872" alt="Heavenly Brew Logo">
+        <h1 class="name-font">Heavenly Brew Menu</h1>
+    </header>
+    <div class="container">
+        <div class="buttons">
+            <a href="coffeeshop-homepage.html">Home</a>
+            <a href="coffeeshop-books.html">Bookstore</a>
+
+        <p class="brew-message">Here's a summary of some of our standout beverages:</p>
+    <div class="container-menu">
+
+        <div class="menu-item">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/794/original/IMG_5097.jpg?1721645035" alt="Coffee 1">
+            <h2>VANILLA DREAMER CAPPUCCINO</h2>
+            <p class="brew-message">A velvety blend of espresso and steamed milk, infused with the sweet essence of vanilla, topped with a frothy cloud of whipped cream and a sprinkle of vanilla bean dust</p>
+            <p class="price">R37.00</p>
+            <button class="button-menu">Add to Basket</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/795/original/IMG_4866.jpg?1721645044" alt="Coffee 2">
+            <h2>MATCHA MINT MADNESS</h2>
+            <p class="brew-message">A refreshing blend of traditional matcha tea infused with a hint of mint, providing a balanced and invigorating flavor profile.</p>
+            <p class="price">R50.00</p>
+            <button class="button-menu">Add to Basket</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/796/original/IMG_4889.jpg?1721645057" alt="Coffee 3">
+            <h2>HEAVENLY MOCHA</h2>
+            <p class="brew-message">A rich blend of espresso, steamed milk, and velvety chocolate syrup, topped with whipped cream and a sprinkle of cocoa powder.</p>
+            <p class="price">R40.00</p>
+            <button class="button-menu">Add to Basket</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/797/original/IMG_4899.jpg?1721645069" alt="Coffee 4">
+            <h2>COCONUT COVE</h2>
+            <p class="brew-message">Espresso kissed by the tropical sweetness of coconut syrup and creamy milk, topped with a cloud of whipped cream and a sprinkle of toasted coconut flakes.</p>
+            <p class="price">R45.00</p>
+            <button class="button-menu">Add to Basket</button>
+        </div>
+            <button class="basket-btn" id="clear-basket">Clear Basket</button>
+    </div>
+    <script>
+        document.getElementById('clear-basket').addEventListener('click', function() {
+            // Clear basket logic here
+            alert('Heavenly Brew Basket Cleared !');
+        });
+    </script>
+</body>
+</html>
